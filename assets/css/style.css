@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;600;700;900&display=swap');
 
-/*----Header----*/
-
 div h1,
 h2 {
   text-align: center;
@@ -9,46 +7,51 @@ h2 {
 }
 
 .bg-color-head {
-  background-color: black
+  background-color: rebeccapurple;
 }
 
 .logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: ;
+
+    background-color:rebeccapurple;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo-dimensions {
-  width: 300px;
-  height: 184px;
+  width: auto;
+  height:auto;
+}
 
-
-#relative {
- padding: 10px;
- position: relative;
- background-color: #fff;
- margin: 10px;
-
-} 
+body, html {
+  height: 100%;
+}
 
 <style>
-        .relative {
-            padding: 10px;
-            position: relative;
-            background-color: #fff;
-            margin: 10px;
-        }
-        
-        .navitem {
-            display: inline-block;
-            width: 70px;
-            height: 30px;
-            text-align: center;
-            border: gray;
-            background-color: #E8562A;
-            color: #fff;
-            cursor: pointer;
-            font-weight: bold;
-        }
-    </style>
+.relative {
+ padding: 10px;
+ position: relative;
+ background-color: purple;
+ margin: 10px;
+} 
+.navitem {
+  display: inline-block;
+  width: 70px; 
+  height: 30px; 
+  text-align: center;
+  border: gray;
+  background-color: #4d2ae8;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+</style>
+
+/*--------------------------------------------------menu*/
+ .bg-dark {
+  background-color: #202020 !important;
+  border-bottom: 2px #ffbe5b solid;
+}
+
+
+
