@@ -27,13 +27,25 @@ body, html {
   height: 100%;
 }
 
-<style>
+.main-background {
+ background:url('../images/main.png');
+ height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+  
+}
+
 .relative {
- padding: 10px;
- position: relative;
- background-color: purple;
- margin: 10px;
+  padding: 10px;
+  background-color:rebeccapurple;
+  margin: 10px;
+  display: flex;
+  top: 1000px;
+  left: 0px;
+  position: sticky;
 } 
+
 .navitem {
   display: inline-block;
   width: 70px; 
@@ -45,7 +57,7 @@ body, html {
   cursor: pointer;
   font-weight: bold;
 }
-</style>
+
 
 /*--------------------------------------------------menu*/
  .bg-dark {
