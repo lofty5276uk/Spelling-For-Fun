@@ -36,7 +36,7 @@ for(var key in grams){
 }
 
 function generateWords(n){
- alert('I am geneeate wordw'+n);   
+ alert('test'+n);   
     if(!n){
         n = 1;
     }
