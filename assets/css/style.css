@@ -40,7 +40,7 @@ body, html {
   padding: 10px;
   background-color:rebeccapurple;
   margin: 10px;
-  display: flex;
+  display: 
   top: 1000px;
   left: 0px;
   position: sticky;
@@ -52,7 +52,7 @@ body, html {
   height: 30px; 
   text-align: center;
   border: gray;
-  background-color: #4d2ae8;
+  background-color: rebeccapurple;
   color: #fff;
   cursor: pointer;
   font-weight: bold;
@@ -64,6 +64,7 @@ body, html {
   background-color: #202020 !important;
   border-bottom: 2px #ffbe5b solid;
 }
+
 
 
 
