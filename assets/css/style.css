@@ -29,18 +29,15 @@ body, html {
 
 .main-background {
  background:url('../images/main.png');
- height: 100%;
- background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
-  
 }
 
 .relative {
   padding: 10px;
   background-color:rebeccapurple;
   margin: 10px;
-  display: 
+  display;
   top: 1000px;
   left: 0px;
   position: sticky;
