@@ -31,8 +31,8 @@ body, html {
 
 
   .img {
-    height: 100vh;
-    width: auto;
+    height: auto;
+    width: 100%;
     background-image: url('../images/main.png');
     background-size: cover;
     background-color: rgb(3, 7, 12);
@@ -43,13 +43,17 @@ body, html {
     font-weight: bold;
     background: no-repeat;
   }
-=======
-.main-background {
- background:url('../images/main.png');
- background-repeat: no-repeat;
- background-size: cover;
-}
->>>>>>> 5298d1042ee0821ed83a2c969c1f0811db97799a
+
+  .main {
+    width: 100%;
+    height:auto;
+  }
+
+  .row {
+   text-align: center;
+   background-color: rebeccapurple;
+   color: white;
+  }
 
 .relative {
   padding: 10px;
@@ -73,6 +77,10 @@ body, html {
   font-weight: bold;
 }
 
+.main {
+  width: 100%;
+  height: auto;
+}
 
 /*--------------------------------------------------menu*/
  .bg-dark {
