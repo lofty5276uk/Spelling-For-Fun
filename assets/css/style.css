@@ -27,6 +27,7 @@ body, html {
   height: 100%;
 }
 
+<<<<<<< HEAD
 
 
   .img {
@@ -42,12 +43,19 @@ body, html {
     font-weight: bold;
     background: no-repeat;
   }
+=======
+.main-background {
+ background:url('../images/main.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+>>>>>>> 5298d1042ee0821ed83a2c969c1f0811db97799a
 
 .relative {
   padding: 10px;
   background-color:rebeccapurple;
   margin: 10px;
-  display: 
+  display;
   top: 1000px;
   left: 0px;
   position: top;
