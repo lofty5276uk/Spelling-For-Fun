@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="project.js">
+
 
         </head>
 
@@ -20,11 +22,10 @@
       </div>
     </div>
 
-    <div class="main-background">
+    <div class="container-fluid px-0">
       <div class="row bg-color-name">
         <div class="col-sm-12 heading">
-          <img src="assets/images/main.png" class="img-fluid" alt="main" class="center">
-
+          
         </div>
       </div>
     </div>
@@ -40,14 +41,21 @@
     </div>
   </div>
 
-  <div class="relative">
-    <h1>Take your pick!</h1>
+  <div id="parent">
+    <div id="child-text">
+      <h1>Take your pick!</h1>
+    </div>
+  </div>
+
+    <div>
     <p>How good is your spelling? Choose a category!
-        <button class="navitem" onclick='generateWords("hello world")' id="fourLetter">4 Letter Words</button>
-        <button class="navitem" onclick='generateWords("hello world")' id="fourLetter">5 Letter Words</button>
-        <button class="navitem" onclick='generateWords("hello world")' id="fourLetter">6 Letter Words</button>
-        <button class="navitem" onclick='generateWords("hello world")' id="fourLetter">7 Letter Words</button>
+        <button class="navitem" onclick='generateWords' id="fourLetter">4 Letter Words</button>
+        <button class="navitem" onclick='generateWords' id="fiveLetter">5 Letter Words</button>
+        <button class="navitem" onclick='generateWords' id="sixLetter">6 Letter Words</button>
+        <button class="navitem" onclick='generateWords' id="sevenLetter">7 Letter Words</button>
     </p>
 </div>
+
+     <script src="project.js"></script>
     </body>
 </html>
