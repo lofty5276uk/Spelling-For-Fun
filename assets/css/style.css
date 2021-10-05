@@ -27,23 +27,6 @@ body, html {
   height: 100%;
 }
 
-<<<<<<< HEAD
-
-
-  .img {
-    height: auto;
-    width: 100%;
-    background-image: url('../images/main.png');
-    background-size: cover;
-    background-color: rgb(3, 7, 12);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: bold;
-    background: no-repeat;
-  }
-
   .main {
     width: 100%;
     height:auto;
@@ -51,21 +34,29 @@ body, html {
 
   .row {
    text-align: center;
-   background-color: rebeccapurple;
+   position: relative;
    color: white;
   }
 
-.relative {
-  padding: 10px;
-  background-color:rebeccapurple;
-  margin: 10px;
-  display;
-  top: 1000px;
-  left: 0px;
-  position: top;
-} 
 
-.navitem {
+#parent {
+    position: relative;
+    min-height: 70vh;
+    margin-bottom: 0;
+    padding: 30px 5px 30px 5px;
+    background: url(/assets/images/main.png) no-repeat center;
+    background-size: cover;
+}
+
+#child-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  color: white;
+}
+
+  .navitem {
   display: inline-block;
   width: 70px; 
   height: 30px; 
@@ -80,6 +71,7 @@ body, html {
 .main {
   width: 100%;
   height: auto;
+  position: relative;
 }
 
 /*--------------------------------------------------menu*/
