@@ -12,6 +12,16 @@ for (i = 0; i < length / 2; i++) {
     var randConsonant = consonants[rand(consonants.length)],
 
         randVowels = vowels[rand(vowels.length)];
-        word +=
+        word += === 0 ? randConsonants.toUpperCase() :
+        randConsonants;
+        word += i * 2 < length - 1 ? randVowels : "";
+    }
+    return word;
 }
-}
+    $("#new").click(function()   {
+        $("#word").text();
+        for(var p = 0; p < 1; p++){
+
+            $("word").append(createRandom`($))
+        }
+    })
