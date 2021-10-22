@@ -1,3 +1,6 @@
+function createRandom(length) {
+    var consonants =
+    'bcdfghjklmnpqrstvwxyz'
 vowels = 'aeiou',
     rand = function (limit) {
         return
