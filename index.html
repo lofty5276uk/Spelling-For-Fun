@@ -57,5 +57,24 @@
 </div>
 
      <script src="project.js"></script>
+
+     <script> 
+         const copy =
+         document.querySelector("#copy");
+         const word =
+         document.querySelector("#word");
+        copy.addEventListener("click", () =>  {
+            if(word.value <= 0) {
+                copy.innerHTML = "Copy";
+            }
+            else {
+              copy.innerHTML = "Copy";
+            }
+            word.select();
+            word.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+      })
+
+    </script>
     </body>
 </html>

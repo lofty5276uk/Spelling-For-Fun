@@ -19,9 +19,8 @@ for (i = 0; i < length / 2; i++) {
     return word;
 }
     $("#new").click(function()   {
-        $("#word").text();
+        $("#word").text("");
         for(var p = 0; p < 1; p++){
-
-            $("word").append(createRandom`($))
+             $("word").append(createRandom($("#num").val()) + "<br/>");
         }
     })
