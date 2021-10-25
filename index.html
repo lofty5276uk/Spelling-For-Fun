@@ -49,32 +49,14 @@
 
     <div>
     <p>How good is your spelling? Choose a category!
-        <button class="navitem" onclick='generateWords' id="fourLetter">4 Letter Words</button>
-        <button class="navitem" onclick='generateWords' id="fiveLetter">5 Letter Words</button>
-        <button class="navitem" onclick='generateWords' id="sixLetter">6 Letter Words</button>
-        <button class="navitem" onclick='generateWords' id="sevenLetter">7 Letter Words</button>
+        <button class="navitem" onclick='generateWords(4)' id="fourLetter">4 Letter Words</button>
+        <button class="navitem" onclick='generateWords(5)' id="fiveLetter">5 Letter Words</button>
+        <button class="navitem" onclick='generateWords(6)' id="sixLetter">6 Letter Words</button>
+        <button class="navitem" onclick='generateWords(7)' id="sevenLetter">7 Letter Words</button>
     </p>
 </div>
 
      <script src="project.js"></script>
 
-     <script> 
-         const copy =
-         document.querySelector("#copy");
-         const word =
-         document.querySelector("#word");
-        copy.addEventListener("click", () =>  {
-            if(word.value <= 0) {
-                copy.innerHTML = "Copy";
-            }
-            else {
-              copy.innerHTML = "Copy";
-            }
-            word.select();
-            word.setSelectionRange(0, 99999);
-            document.execCommand("copy");
-      })
-
-    </script>
     </body>
 </html>
