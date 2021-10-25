@@ -1,16 +1,15 @@
 {
-    "4 Letter words" {
-        "4 letters": " Teat Howl Ugly Knee Stew Chat Poor  Wide Tour Even  Word Neck Lost Sore Beef Grab Size Fold Fall Fill"
-    },
-    ranWord2 {
-        sentence: "This is a sentence 2"
-    },
-    ranWord3 {
-        sentence: "This is a sentence 3"
-    },
-    ranWord4 {
-        sentence: "This is a sentence 4"
-    },
-    ranWord5 {
-        sentence: "This is a sentence 5"
-    }
+    "4 Letter Words"
+    "4 letters": " Teat Howl Ugly Knee Stew Chat Poor  Wide Tour Even  Word Neck Lost Sore Beef Grab Size Fold Fall Fill"
+}, {
+    "5 Letter Words"
+    "5 letters": "About Knock Forks Every Would Could Rogue Vague Eight Steak Stake Great Grate Brake Break Plane Plain Prove Water Class"
+},
+ranWord {
+    sentence: "This is a sentence 3"
+},
+ranWord4 {
+    sentence: "This is a sentence 4"
+},
+
+}
