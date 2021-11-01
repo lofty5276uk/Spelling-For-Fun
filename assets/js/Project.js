@@ -27,3 +27,4 @@ $("#new").click(function () {
         $("word").append(createRandom($("#num").val()) + "<br/>");
     }
 })
+
