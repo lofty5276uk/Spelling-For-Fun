@@ -15,18 +15,18 @@ function createRandom(length) {
         var randConsonant = consonants[rand(consonants.length)],
 
             randVowels = vowels[rand(vowels.length)];
-        word += === 0 ? randConsonants.toUpperCase() :
+        word += 0 ? randConsonants.toUpperCase() :
             randConsonants;
         word += i * 2 < length - 1 ? randVowels : "";
     }
     return word;
 }
-$("#new").click(function () {
-    $("#word").text("");
-    for (var p = 0; p < 1; p++) {
-        $("word").append(createRandom($("#num").val()) + "<br/>");
-    }
-})
+// $("#new").click(function () {
+//     $("#word").text("");
+//     for (var p = 0; p < 1; p++) {
+//         $("word").append(createRandom($("#num").val()) + "<br/>");
+//     }
+// })
 
 function getJson() {
     fetch("../../project.json").then(response => response.json()).then(data => {
@@ -34,3 +34,5 @@ function getJson() {
         console.log(dataJson)
     })
 }
+
+getJson()
