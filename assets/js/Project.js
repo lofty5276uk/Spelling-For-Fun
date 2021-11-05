@@ -28,3 +28,9 @@ $("#new").click(function () {
     }
 })
 
+function getJson() {
+    fetch("../../project.json").then(response => response.json()).then(data => {
+        dataJson = data
+        console.log(dataJson)
+    })
+}
