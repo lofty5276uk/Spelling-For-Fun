@@ -1,24 +1,20 @@
 [{
-    "letterWords": 4,
+    "generateWords": 4,
     "4 letters": [" Teat", " Howl", " Ugly", " Knee", " Stew", " Chat", " Poor", "  Wide", " Tour", " Even", "  Word", " Neck", " Lost", " Sore", " Beef", " Grab", " Size", " Fold", " Fall", " Fill"]
-}
-]
+}]
 
 [{
-    "letterWords": 5,
+    "generateWords": 5,
     "5 letters": [" About", " Knock", " Forks", "Every", " Would", " Could", " Rogue", " Vague", " Eight", " Steak", " Stake", " Great", " Grate", " Brake", " Break", " Plane", " Plain", " Prove", " Water", " Class"]
-}
-]
+}]
 
 [{
-    "letterWords": 6,
-    "6 letters": [" Cinema", " Advice", " Closed",  " Stable", " Lonely", " Ballet",  " Museum", " Market", " Legend", " Helmet",  " Heroin",  " Packet",  " Double", " Cancer", " Peanut",  " Normal",  " Window", " Moment", " Summer", "Singer"]
-    
-}
-]
+    "generateWords": 6,
+    "6 letters": [" Cinema", " Advice", " Closed", " Stable", " Lonely", " Ballet", " Museum", " Market", " Legend", " Helmet", " Heroin", " Packet", " Double", " Cancer", " Peanut", " Normal", " Window", " Moment", " Summer", "Singer"]
+
+}]
 
 [{
-    "letterWords": 7,
-    "7 letters": [" Meeting", " Forward", " Capture", " Dentist", " Rubbish", " Problem", " Reptile", " Stomach", " Process", " Release",  " Meaning",  " Freedom", " Improve", " Produce", " Housing", " Evening", " Partner", " Freedom", " Meaning", " Storage"]
-}
-]
+    "generateWords": 7,
+    "7 letters": [" Meeting", " Forward", " Capture", " Dentist", " Rubbish", " Problem", " Reptile", " Stomach", " Process", " Release", " Meaning", " Freedom", " Improve", " Produce", " Housing", " Evening", " Partner", " Freedom", " Meaning", " Storage"]
+}]
