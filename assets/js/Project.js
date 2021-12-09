@@ -1,3 +1,6 @@
+const selectButtons = document.getElementsByClassName('navitem')
+let questions
+
 function createRandom(length) {
     var consonants =
         'bcdfghjklmnpqrstvwxyz'
@@ -21,18 +24,34 @@ function createRandom(length) {
     }
     return word;
 }
-// $("#new").click(function () {
-//     $("#word").text("");
-//     for (var p = 0; p < 1; p++) {
-//         $("word").append(createRandom($("#num").val()) + "<br/>");
-//     }
-// })
+
+for (let button of selectButtons) {
+    button.addEventListener('click', (event) {
+        console.log(event.target.dataset.letters)
+        getSelection(event.target.dataset.letters)
+    })
+}
+
+function getSelection(choice) {
+    let questionsChoice = questions.find(question question.generateWords == choice)
+    console.log(questionsChoice)
+}
 
 function getJson() {
     fetch("../../project.json").then(response => response.json()).then(data => {
         dataJson = data
         console.log(dataJson)
+        console.log(questions)
     })
 }
 
 getJson()
+
+var timeleft = 10;
+var downloadTimer = setInterval(function(){
+  if(timeleft <= 0){
+    clearInterval(downloadTimer);
+  }
+  document.getElementById("progressBar").value = 10 - timeleft;
+  timeleft -= 1;
+}, 1000);
