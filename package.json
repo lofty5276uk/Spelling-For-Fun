@@ -1,19 +1,18 @@
-{
-    "4 Letter Words"
-    "4 letters": " Teat Howl Ugly Knee Stew Chat Poor  Wide Tour Even  Word Neck Lost Sore Beef Grab Size Fold Fall Fill"
-},
-
-{
-    "5 Letter Words"
-    "5 letters": " About Knock Forks Every Would Could Rogue Vague Eight Steak Stake Great Grate Brake Break Plane Plain Prove Water Class"
-},
-
-{
-    "6 Letter Words"
-    "6 letters": " Cinema Advice Closed Stable Lonely Ballet Museum Market Legend Helmet Heroin Packet Double Cancer Peanut Normal Window Moment Summer Singer"
-},
-
-{
-    "7 Letter Words"
-    "7 letters": " Meeting Forward Capture Dentist Rubbish Problem Reptile Stomach Process Release Meaning Freedom Improve Produce Housing Evening Partner Freedom Meaning Storage"
-},
+[
+    {
+        "4 Letter Words": "Some words",
+        "4 letters": " Teat Howl Ugly Knee Stew Chat Poor  Wide Tour Even  Word Neck Lost Sore Beef Grab Size Fold Fall Fill"
+    },
+    {
+        "5 Letter Words": "some words",
+        "5 letters": " About Knock Forks Every Would Could Rogue Vague Eight Steak Stake Great Grate Brake Break Plane Plain Prove Water Class"
+    },
+    {
+        "6 Letter Words": "Some words",
+        "6 letters": " Cinema Advice Closed Stable Lonely Ballet Museum Market Legend Helmet Heroin Packet Double Cancer Peanut Normal Window Moment Summer Singer"
+    },
+    {
+        "7 Letter Words": "some words",
+        "7 letters": " Meeting Forward Capture Dentist Rubbish Problem Reptile Stomach Process Release Meaning Freedom Improve Produce Housing Evening Partner Freedom Meaning Storage"
+    }
+]
