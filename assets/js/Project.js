@@ -57,3 +57,9 @@ var downloadTimer = setInterval(function(){
   }
   timeleft -= 1;
 }, 1000);
+
+fetch('./file.json')
+.then((response) => response.json())
+.then((data) => {
+    console.log(data);
+})
