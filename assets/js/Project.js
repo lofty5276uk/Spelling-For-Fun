@@ -6,7 +6,7 @@ function createRandom(length) {
         'bcdfghjklmnpqrstvwxyz'
     vowels = 'aeiou',
         rand = function (limit) {
-            return
+            return;
             Math.floor(Math.random() *
                 limit);
         },
