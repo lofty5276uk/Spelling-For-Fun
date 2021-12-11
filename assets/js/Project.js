@@ -26,7 +26,7 @@ function createRandom(length) {
 }
 
 for (let button of selectButtons) {
-    button.addEventListener('click', (event) {
+    button.addEventListener('click', (event) =>
         console.log(event.target.dataset.letters)
         getSelection(event.target.dataset.letters)
     })
@@ -38,7 +38,7 @@ function getSelection(choice) {
 }
 
 function getJson() {
-    fetch("../../project.json").then(response => response.json()).then(data => {
+    fetch("../../word.json").then(response => response.json()).then(data => {
         dataJson = data
         console.log(dataJson)
         console.log(questions)
@@ -58,7 +58,7 @@ var downloadTimer = setInterval(function(){
   timeleft -= 1;
 }, 1000);
 
-fetch('./file.json')
+fetch('./word.json')
 .then((response) => response.json())
 .then((data) => {
     console.log(data);
